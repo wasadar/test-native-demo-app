@@ -1,28 +1,6 @@
 import { $ } from '@wdio/globals'
 import Page from './page.js';
 
-export const burgerMenuOption = {
-    docs: 1,
-    API: 2,
-    blog: 3,
-    contribute: 4,
-    community: 5,
-    sponsor: 6,
-    version: 7,
-    languages: 8,
-    github: 9,
-    twitter: 10,
-    youtube: 11,
-    discord: 12
-};
-
-//android.widget.TextView[@text="Getting Started"]
-
-//android.view.View[@resource-id="__docusaurus_skipToContent_fallback"]//android.vidget.TextView
-
-//android.widget.Button[@text="Languages"]
-//android.widget.ListView/android.view.View[8]/android.widget.Button
-
 export const internalLinks = ['Docs', 'API', 'Blog', 'Contribute', 'Community', 'Sponsor', 'v9'];
 
 export const languages = ['English', 'Deutsch', 'Español', 'हिन्दी', 'Français', 'Українська', 'فارسی', 'தமிழ்'];
