@@ -1,5 +1,5 @@
-import { expect } from '@wdio/globals'
-import WebviewPage, {internalLinks, languages, externalLinks} from '../pageobjects/webview.page.js'
+import { expect } from '@wdio/globals';
+import WebviewPage, {internalLinks, languages, externalLinks} from '../pageobjects/webview.page.js';
 
 describe('Native app demo application\'s webview header tests', () => {
     beforeEach(async () => {

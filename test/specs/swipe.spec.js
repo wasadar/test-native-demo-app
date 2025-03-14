@@ -1,5 +1,5 @@
-import { expect } from '@wdio/globals'
-import SwipePage from '../pageobjects/swipe.page.js'
+import { expect } from '@wdio/globals';
+import SwipePage from '../pageobjects/swipe.page.js';
 
 describe('Native app demo application\'s swipe tests', () => {
     beforeEach(async () => {

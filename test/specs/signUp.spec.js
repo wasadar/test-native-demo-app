@@ -1,5 +1,5 @@
-import { expect } from '@wdio/globals'
-import LoginPage from '../pageobjects/login.page.js'
+import { expect } from '@wdio/globals';
+import LoginPage from '../pageobjects/login.page.js';
 
 describe('Native app demo application\'s login tests', () => {
     beforeEach(async () => {

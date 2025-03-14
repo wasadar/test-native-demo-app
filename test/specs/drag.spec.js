@@ -1,5 +1,5 @@
-import { expect } from '@wdio/globals'
-import DragPage from '../pageobjects/drag.page.js'
+import { expect } from '@wdio/globals';
+import DragPage from '../pageobjects/drag.page.js';
 
 describe('Native app demo application\'s drag and drop tests', () => {
     beforeEach(async () => {

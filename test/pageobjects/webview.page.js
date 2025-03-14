@@ -1,4 +1,4 @@
-import { $ } from '@wdio/globals'
+import { $ } from '@wdio/globals';
 import Page from './page.js';
 
 export const internalLinks = ['Docs', 'API', 'Blog', 'Contribute', 'Community', 'Sponsor', 'v9'];

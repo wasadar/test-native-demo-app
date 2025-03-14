@@ -1,5 +1,5 @@
-import { expect } from '@wdio/globals'
-import FormsPage from '../pageobjects/forms.page.js'
+import { expect } from '@wdio/globals';
+import FormsPage from '../pageobjects/forms.page.js';
 
 describe('Native app demo application\'s forms tests', () => {
     beforeEach(async () => {
