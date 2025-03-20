@@ -3,8 +3,7 @@ export const config = {
     user: process.env.BROWSERSTACK_USERNAME,
     key: process.env.BROWSERSTACK_ACCESS_KEY,
     specs: [
-        // './test/specs/**/*.js'
-        './test/specs/webview.spec.js'
+        './test/specs/**/*.js'
     ],
     exclude: [
     ],
